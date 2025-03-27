@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#home" class="scroll-link">Home</a>
+        <a href="#about" class="scroll-link">Tentang Saya</a>
+        <a href="#gallery" class="scroll-link">Galeri</a>
+        <a href="#contact" class="scroll-link">Kontak</a>
+        <button id="darkModeToggle">🌙</button>
+    </nav>
+
+    <!-- Home -->
+    <header id="home">
+        <img src="images/profile.jpeg" alt="Foto Profil" class="profile-pic">
+        <h1>Halo, Saya Aril Bahtiar 👋</h1>
+        <p>Mahasiswa | Suka Ngoding | Suka Fotografi</p>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Hai! Saya adalah seorang mahasiswa yang tertarik dengan teknologi dan desain. Selain itu, saya juga suka fotografi dan traveling.</p>
+    </section>
+
+    <!-- Galeri Foto -->
+    <section id="gallery">
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+            <div class="gallery-item"><img src="images/foto1.jpeg" alt="Foto 1"></div>
+            <div class="gallery-item"><img src="images/foto2.jpeg" alt="Foto 2"></div>
+            <div class="gallery-item"><img src="images/foto3.jpeg" alt="Foto 3"></div>
+            <div class="gallery-item"><img src="images/foto4.jpeg" alt="Foto 4"></div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: arilbahtiar30@email.com</p>
+        <p>Instagram: <a href="#">@arilbahtiar_12</a></p>
+    </section>
+
+    <!-- Lightbox untuk Foto -->
+    <div id="lightbox">
+        <span id="closeLightbox">&times;</span>
+        <img id="lightboxImg">
+    </div>
+
+    <!-- Tombol Kembali ke Atas -->
+    <button id="backToTop">⬆</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
